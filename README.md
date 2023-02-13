@@ -3,11 +3,10 @@ Accompanying source code for the conference paper
 
 	Learning discrete Lagrangians for variational PDEs from data and detection of travelling waves
 	Christian Offen, Sina Ober-Blöbaum
-	Proceedings of GSI'23 6th International Conference on Geometric Science of Information (30/08-01/09/2023)
+	Conference Proceedings of GSI'23 6th International Conference on Geometric Science of Information (30/08-01/09/2023)
 	Saint-Malo, Palais du Grand Large, France
+	arXiv: https://arxiv.org/a/offen_c_1.html
 	Status: Submitted.
-
-<a href="https://arxiv.org/a/offen_c_1.html">ArXiv author page</a>
 
 # Main files
 	

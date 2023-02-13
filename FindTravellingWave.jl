@@ -1,5 +1,7 @@
 using Flux
 using ForwardDiff
+using Dates	# for saving TW data
+using JSON	# for saving TW data
 
 
 # main functions are "find_travelling_wave" and "find_discrete_travelling_wave"
@@ -181,7 +183,9 @@ function find_discrete_travelling_wave(L,cfrhatR,M) # for discrete Lagrangian L
                 end
         end
         DELloss = DELErr/(M*(N+1))
-        normloss = (sum(U.^2)/(M*(N+1))-0.5)^2
+        l2UU = sum(U.^2)/(M*(N+1))
+        #normloss = (sum(U.^2)/(M*(N+1))-0.5)^2
+        normloss = exp(-100*l2UU)      # punish trivial solution
 
         return [DELloss,normloss]
 
@@ -221,7 +225,7 @@ function find_discrete_travelling_wave(L,cfrhatR,M) # for discrete Lagrangian L
 
     end
 
-    function train_tw!(epochs::Int; print_every=1)
+    function train_tw!(epochs::Int; print_every=1, save_every=NaN)
 
             for j = 1:epochs
 
@@ -233,6 +237,15 @@ function find_discrete_travelling_wave(L,cfrhatR,M) # for discrete Lagrangian L
                 if mod(j,print_every)==0
 	                println(current_loss)
         	        flush(stdout);
+        	end
+        	
+        	if mod(j,save_every)==0
+	                nowrun = Dates.format(now(), "yyyy-mm-dd_HH-MM-SS")
+			run_dict = Dict("time" => nowrun, "cfrhatR" => cfrhatR)
+			open(nowrun*"run_TW.json","w") do f
+			    JSON.print(f, run_dict)
+	end
+
         	end
 
             end
