@@ -5,8 +5,9 @@ Accompanying source code for the conference paper
 	Christian Offen, Sina Ober-Blöbaum
 	Conference Proceedings of GSI'23 6th International Conference on Geometric Science of Information (30/08-01/09/2023)
 	Saint-Malo, Palais du Grand Large, France
-	arXiv: https://arxiv.org/a/offen_c_1.html
-	Status: Submitted.
+	Status: Submitted. <a href"https://ris.uni-paderborn.de/record/42163">Preprint</a>
+
+<a href"https://arxiv.org/a/offen_c_1.html">ArXiv author page</a>
 
 # Main files
 	
@@ -30,3 +31,6 @@ Creation of training data to be used in FitDensity.jl
 
 ## 2023-01-31_08-53-14run_data.json
 Learned model of a Lagrangian density. Created by FitDensity.jl
+
+## 2023-02-14_11-21-06run_dataTW05pert.json
+Learned Fourier coefficients of travelling wave. Created by Evaluation_Trained_Model.ipynb
