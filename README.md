@@ -7,7 +7,7 @@ Accompanying source code for the conference paper
 	Saint-Malo, Palais du Grand Large, France
 	Status: Submitted.
 
- <a href="https://ris.uni-paderborn.de/record/42163">Preprint</a>
+<a href="https://arxiv.org/abs/2302.08232">Preprint arXiv:2302.08232</a><br>
 <a href="https://arxiv.org/a/offen_c_1.html">ArXiv author page</a>
 
 # Main files
