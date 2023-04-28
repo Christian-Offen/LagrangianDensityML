@@ -5,7 +5,7 @@ Accompanying source code for the conference paper
 	Christian Offen, Sina Ober-Blöbaum
 	Conference Proceedings of GSI'23 6th International Conference on Geometric Science of Information (30/08-01/09/2023)
 	Saint-Malo, Palais du Grand Large, France
-	Status: Submitted.
+	Status: Accepted.
 
 <a href="https://arxiv.org/abs/2302.08232">Preprint arXiv:2302.08232</a><br>
 <a href="https://arxiv.org/a/offen_c_1.html">ArXiv author page</a>
