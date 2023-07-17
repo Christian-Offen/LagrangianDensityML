@@ -3,7 +3,7 @@ Accompanying source code for the conference paper
 
 	Christian Offen, Sina Ober-Blöbaum
 	Learning discrete Lagrangians for variational PDEs from data and detection of travelling waves
-	F. Nielsen and F. Barbaresco (Eds.): GSI 2023, LNCS 14071, pp. 1–11, 2023.
+	In: F. Nielsen and F. Barbaresco (Eds.): GSI 2023, LNCS 14071, pp. 1–11, 2023.
 	DOI: 10.1007/978-3-031-38271-0_57
  	
 	Status: In press.
