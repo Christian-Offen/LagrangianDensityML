@@ -1,12 +1,14 @@
 # Learning of discrete Lagrangian densities from data
 Accompanying source code for the conference paper
 
-	Learning discrete Lagrangians for variational PDEs from data and detection of travelling waves
 	Christian Offen, Sina Ober-Blöbaum
-	Conference Proceedings of GSI'23 6th International Conference on Geometric Science of Information (30/08-01/09/2023)
-	Saint-Malo, Palais du Grand Large, France
-	Status: Accepted.
+	Learning discrete Lagrangians for variational PDEs from data and detection of travelling waves
+	F. Nielsen and F. Barbaresco (Eds.): GSI 2023, LNCS 14071, pp. 1–11, 2023.
+	DOI: 10.1007/978-3-031-38271-0_57
+ 	
+	Status: In press.
 
+<a href="https://doi.org/10.1007/978-3-031-38271-0_57">DOI SpringerLink</a><br>
 <a href="https://arxiv.org/abs/2302.08232">Preprint arXiv:2302.08232</a><br>
 <a href="https://arxiv.org/a/offen_c_1.html">ArXiv author page</a>
 
