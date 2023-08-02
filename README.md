@@ -3,7 +3,7 @@ Accompanying source code for the conference paper
 
 	Christian Offen, Sina Ober-Blöbaum
 	Learning discrete Lagrangians for variational PDEs from data and detection of travelling waves
-	In: F. Nielsen and F. Barbaresco (Eds.): Geometric Science of Information. Lecture Notes in Computer Science, vol. 14071, pp. 569–579. Springer Nature Switzerland, Cham (2023)
+	In: Nielsen, F., Barbaresco, F. (eds) Geometric Science of Information. GSI 2023. Lecture Notes in Computer Science, vol 14071. Springer, Cham.
 	DOI: 10.1007/978-3-031-38271-0_57
  	
 	Status: Published.
